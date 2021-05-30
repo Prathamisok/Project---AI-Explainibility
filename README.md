@@ -6,8 +6,8 @@
 - https://scikit-image.org/docs/dev/api/skimage.segmentation.html#skimage.segmentation.quickshift :Segmentation by quickshift
 - https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LinearRegression.html : Linear Regression model
 
-## Task
-Task is that each image is subjected to super-pixel segmentation that divides the image into several sub-regions with similar pixel color and texture characteristics. And then
+## Motivation for the project
+In this project each image is subjected to super-pixel segmentation that divides the image into several sub-regions with similar pixel color and texture characteristics. And then
 with help of InceptionV3 model  assign a probability to each superpixel sub-region to belong to one of the 1000 classes that InceptionV3 is originally trained on.
 
 ## Procedure 
